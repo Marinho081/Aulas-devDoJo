@@ -1,10 +1,9 @@
 package academy.devedojo.maratonajava.javacore.Hherança.Dominio;
 
 public class Pessoa {
-    protected String nome;
-    protected String cpf;
-    protected Endereco endereco;
-
+   protected String nome;
+   protected String cpf;
+   protected Endereco endereco;
      public void imprime(){
          System.out.println(this.nome);
          System.out.println(this.cpf);

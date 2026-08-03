@@ -5,7 +5,7 @@ Agora que você tem o arquivo salvado no seu computador:
 1.  Abra o terminal (ou Use o Git no VS Code).
 2.  Navegue até a pasta do seu repositório:
     ```bash
-    cd C:\Users\Lucas\Desktop\f663e926-9527-4915-a396-05be23ef98e8
+    cd ![Diagrama de Herança](./assets/Pasted image 20260726123415.jpg)
     ```
     *(Substitua pelo caminho real da sua pasta do projeto, já que o número que você mandou parece ser o nome de uma imagem, não da pasta)*.
 3.  Adicione o arquivo ao Git:
