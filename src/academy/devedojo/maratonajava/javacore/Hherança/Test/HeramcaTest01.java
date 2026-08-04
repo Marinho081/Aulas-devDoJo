@@ -10,14 +10,12 @@ public class HeramcaTest01 {
         endereco.setRua("Rua das criolas");
         endereco.setCep("5060-70010");
 
-        Pessoa pessoa = new Pessoa();
-        pessoa.setNome("booby");
+        Pessoa pessoa = new Pessoa("booby");
         pessoa.setCpf("096.105.502.45");
         pessoa.setEndereco(endereco);
         pessoa.imprime();
 
-        Funcionario funcionario = new Funcionario();
-        funcionario.setNome("lufy");
+        Funcionario funcionario = new Funcionario("lufy");
         funcionario.setCpf("02112545677");
         funcionario.setEndereco(endereco);
         funcionario.setSlario(2000);

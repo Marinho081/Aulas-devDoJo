@@ -1,7 +1,21 @@
 package academy.devedojo.maratonajava.javacore.Hherança.Dominio;
 
 public class Funcionario  extends Pessoa {
-    private double slario;
+    private double slario = 2000;
+    static {
+        System.out.println("dentro do bloco de inicialização estatico funcionario");
+    }
+    {
+        System.out.println("dentro do bloco de inicialização de funcionario 01");
+    }
+    {
+        System.out.println("dentro do bloco de inicialização de funcionario 02");
+    }
+
+    public Funcionario(String nome){
+        super(nome);
+        System.out.println("dentro do construtorm de funcionario");
+    }
 
     public void imprime(){
         super.imprime();
